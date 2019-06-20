@@ -27,7 +27,7 @@ def getnped():
     return imgdata
 
 def main():
-    #ped=getped() 
+    ped=getped() 
     nped_diff_sizes=getnped()
     nped=[]
     #the following gets the ROI of 36x18 for all non ped images for any size
